@@ -8,6 +8,7 @@ function buscaLinearAlvo(lista, alvo)
     return -1;
 }
 
+/*
 const listaNum = [-1, 0, 3, 5, 9, 12];
 const numAlvo = 2;
 const index = buscaLinearAlvo(listaNum, numAlvo);
@@ -17,3 +18,6 @@ if (index !== -1) {
 } else {
     console.log(`Numero não encontrado! ${index}`);
 }
+*/
+
+module.exports = { buscaLinearAlvo };
