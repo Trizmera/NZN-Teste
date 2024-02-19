@@ -15,5 +15,5 @@ const index = buscaLinearAlvo(listaNum, numAlvo);
 if (index !== -1) {
     console.log(`Numero encontrado em ${index}`);
 } else {
-    console.log(`Num não encontrado!`);
+    console.log(`Numero não encontrado! ${index}`);
 }
